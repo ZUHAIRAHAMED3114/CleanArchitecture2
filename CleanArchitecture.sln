@@ -4,33 +4,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{45A55345-8F52-4507-94E4-3CBB63F69535}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Domain", "CleanArch.Domain", "{53BEF35D-D613-45A1-812B-BA1913CE523C}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC", "{C2499CF7-BE67-44FA-9716-42B77962FE07}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data", "{6791BFE5-8D12-4ADC-81B4-1C467B26E304}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.MVC", "CleanArch.UI.MVC", "{CFAD400E-5A7A-40AA-A57C-D7D80D0FB0CD}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{203DF6A9-3512-44AA-9DED-99F89D3242D4}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203DF6A9-3512-44AA-9DED-99F89D3242D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203DF6A9-3512-44AA-9DED-99F89D3242D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203DF6A9-3512-44AA-9DED-99F89D3242D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203DF6A9-3512-44AA-9DED-99F89D3242D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{203DF6A9-3512-44AA-9DED-99F89D3242D4} = {CFAD400E-5A7A-40AA-A57C-D7D80D0FB0CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D84EA564-DBD4-472B-81C6-64B78AFDB938}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vbDs83smxqKsl9gwbpQVfZIqF2YcnrFkm9MJnKLXSv+vmes//Pik/mbIodM1hyJPotGGkXpg261hnVBIK6v/Ug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Mvc\\CleanArch.Mvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
