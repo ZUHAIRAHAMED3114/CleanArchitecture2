@@ -1,13 +1,13 @@
-﻿using CleanArch.Mvc.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using CleanArch.MVC.Models;
 
-namespace CleanArch.Mvc.Controllers
+namespace CleanArch.MVC.Controllers
 {
     public class HomeController : Controller
     {
