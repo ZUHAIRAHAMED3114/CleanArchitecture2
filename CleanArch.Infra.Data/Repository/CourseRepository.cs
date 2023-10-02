@@ -11,6 +11,12 @@ namespace CleanArch.Infra.Data.Repository
     public class CourseRepository : ICourseRepository
     {
         private readonly UniversityDBContext _context;
+
+        public CourseRepository(UniversityDBContext context)
+        {
+            _context = context;
+        }
+
         public IEnumerable<Course> GetCourse()
         {
            return  _context.Courses.ToList();
