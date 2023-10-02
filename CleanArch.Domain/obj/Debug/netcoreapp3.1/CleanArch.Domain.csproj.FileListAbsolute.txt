@@ -7,3 +7,4 @@ C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\As
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.CoreCompileInputs.cache
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.dll
 C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.pdb
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Domain\obj\Debug\netcoreapp3.1\CleanArch.Domain.csproj.AssemblyReference.cache

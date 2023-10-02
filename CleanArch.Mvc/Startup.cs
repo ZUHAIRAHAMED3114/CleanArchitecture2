@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CleanArch.Infra.Data.Context;
+using CleanArch.Infra.IOC;
 
 namespace CleanArch.MVC
 {
@@ -34,13 +35,16 @@ namespace CleanArch.MVC
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddDbContext<UniversityDBContext>(Options =>
-            {
-                Options.UseSqlServer(
-                    Configuration.GetConnectionString("University"));
-            });
+            //services.AddDbContext<UniversityDBContext>(Options =>
+            //{
+            //    Options.UseSqlServer(
+            //        Configuration.GetConnectionString("University"));
+            //});
 
-            services.AddControllersWithViews();
+            services.ApplicationService()
+                    .InfraStructureService(Configuration.GetConnectionString("University"));
+
+           services.AddControllersWithViews();
            services.AddRazorPages();
         }
 
