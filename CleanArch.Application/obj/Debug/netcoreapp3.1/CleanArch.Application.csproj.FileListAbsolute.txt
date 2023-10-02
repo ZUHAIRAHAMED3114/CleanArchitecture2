@@ -1,0 +1,10 @@
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Application.deps.json
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Application.dll
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\bin\Debug\netcoreapp3.1\CleanArch.Application.pdb
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.csproj.AssemblyReference.cache
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.AssemblyInfoInputs.cache
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.AssemblyInfo.cs
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.csproj.CoreCompileInputs.cache
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.dll
+C:\Users\shaik zuhair ahamed\OneDrive\Desktop\Lecture\Sms_Call_Chat_Video_Sms\AspNetCore\CleanArchitecture2\CleanArch.Application\obj\Debug\netcoreapp3.1\CleanArch.Application.pdb
