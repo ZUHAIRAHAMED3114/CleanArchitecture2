@@ -1,9 +1,97 @@
-# Ignore build and output directories
-bin/
-obj/
+# Visual Studio Code settings
+.vscode/
+
+# User-specific files
 *.suo
 *.user
-*.bak
-*.vscode/
-.vs/
+
+# Compiled output
+bin/
+obj/
+
+# ReSharper
+_ReSharper.*
+
+# Rider
 .idea/
+
+# NuGet
+*.nuget.props
+*.paket.props
+*.paket.targets
+packages/
+
+# User-specific files
+*.suo
+*.user
+
+# Compiled output
+bin/
+obj/
+
+# Rider
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio for Mac
+.vscode/
+.idea/
+# User-specific files
+*.suo
+*.user
+
+# Compiled output
+bin/
+obj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio for Mac user-specific files
+.vscode/
+.idea/
+*.userprefs
+
+# User-specific files
+*.suo
+*.user
+
+# Compiled output
+bin/
+obj/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+
+# Compiled output
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+
+# Compiled output
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+
+# Compiled output
+bin/
+obj/
+
+# User-specific files
+*.
