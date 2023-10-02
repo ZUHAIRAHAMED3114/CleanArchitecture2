@@ -29,11 +29,10 @@ namespace CleanArch.MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("LocalSQL")));
+
+            services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("LocalSQL")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
 
             //services.AddDbContext<UniversityDBContext>(Options =>
             //{
@@ -41,9 +40,8 @@ namespace CleanArch.MVC
             //        Configuration.GetConnectionString("University"));
             //});
 
-            services.ApplicationService()
-                    .InfraStructureService(Configuration.GetConnectionString("University"));
-
+           services.ApplicationService()
+                   .InfraStructureService(connectionString:Configuration.GetConnectionString("University"));
            services.AddControllersWithViews();
            services.AddRazorPages();
         }

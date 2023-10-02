@@ -1,0 +1,9 @@
+# Ignore build and output directories
+bin/
+obj/
+*.suo
+*.user
+*.bak
+*.vscode/
+.vs/
+.idea/
