@@ -34,18 +34,12 @@ namespace CleanArch.MVC
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            //services.AddDbContext<UniversityDBContext>(Options =>
-            //{
-            //    Options.UseSqlServer(
-            //        Configuration.GetConnectionString("University"));
-            //});
 
-
-           services.ApplicationService()
+            services.ApplicationService()
                    .DomainService()
                    .InfraStructureService(connectionString:Configuration.GetConnectionString("University"));
-           services.AddControllersWithViews();
-           services.AddRazorPages();
+            services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
