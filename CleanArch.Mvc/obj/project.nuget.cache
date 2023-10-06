@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DR5S1Rz509BYg9r8fkH4xvK8NW3pnHIMIzY3Q1WXJipg1R6S7HBxMf3vx2CUOR5jvLqL9LVTJRUxXGmIr3o96w==",
+  "dgSpecHash": "BqRJk6dyXWNhap3PlemP+ou0RAIhZ/p6pDsGhA6i8X/gKuBHBgbl88Qwh5yJxLbN/6hLjoR6gGwoX+28om9Q4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Mvc\\CleanArch.Mvc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.20\\microsoft.aspnetcore.cryptography.internal.3.1.20.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.20\\microsoft.aspnetcore.cryptography.keyderivation.3.1.20.nupkg.sha512",
     "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.20\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.20.nupkg.sha512",

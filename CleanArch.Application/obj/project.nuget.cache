@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rVn5KzuAg19UbIzM3oCHaxsOM2Lkv7oc94++TfX9GJ5R6/AOJ7qQ8eDp1N8y6VIg9vEC87vNA9v9A1rFloerTQ==",
+  "dgSpecHash": "a++9lV20G1x8KUXyj6pyxVPELr3qsdSGuiz5bAKS+mj12bmKWtNtnTk9r1PNThnIvQgJSmvQ9rFuQWT1Eb054Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Application\\CleanArch.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
