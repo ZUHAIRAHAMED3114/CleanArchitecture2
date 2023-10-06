@@ -34,7 +34,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CFF2BF27-BB5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Bus", "CleanArch.Infra.Bus\CleanArch.Infra.Bus.csproj", "{32F6A9C6-8232-430F-9902-7037F5D44357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{1000F2D4-56F0-4DF9-8B60-CF53B3489074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{1000F2D4-56F0-4DF9-8B60-CF53B3489074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Api", "CleanArch.Api\CleanArch.Api.csproj", "{14DABAD2-1E58-42DA-B0EE-A5F77A553EA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +72,10 @@ Global
 		{1000F2D4-56F0-4DF9-8B60-CF53B3489074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1000F2D4-56F0-4DF9-8B60-CF53B3489074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1000F2D4-56F0-4DF9-8B60-CF53B3489074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DABAD2-1E58-42DA-B0EE-A5F77A553EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DABAD2-1E58-42DA-B0EE-A5F77A553EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DABAD2-1E58-42DA-B0EE-A5F77A553EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DABAD2-1E58-42DA-B0EE-A5F77A553EA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{B6BEBECF-8329-4239-BCC8-27F6D1B34719} = {C2499CF7-BE67-44FA-9716-42B77962FE07}
 		{32F6A9C6-8232-430F-9902-7037F5D44357} = {9AD52ABB-0A2B-4D9C-B680-A416026F49E7}
 		{1000F2D4-56F0-4DF9-8B60-CF53B3489074} = {53BEF35D-D613-45A1-812B-BA1913CE523C}
+		{14DABAD2-1E58-42DA-B0EE-A5F77A553EA7} = {CFF2BF27-BB5B-4C0A-A898-6B74DB18AF34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D84EA564-DBD4-472B-81C6-64B78AFDB938}
