@@ -44,6 +44,9 @@ artifacts/
 *.suo
 *.user
 
+*.vs/
+
+
 # Compiled output
 bin/
 obj/
