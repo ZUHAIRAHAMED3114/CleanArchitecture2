@@ -40,7 +40,9 @@ namespace CleanArch.MVC
             //        Configuration.GetConnectionString("University"));
             //});
 
+
            services.ApplicationService()
+                   .DomainService()
                    .InfraStructureService(connectionString:Configuration.GetConnectionString("University"));
            services.AddControllersWithViews();
            services.AddRazorPages();
