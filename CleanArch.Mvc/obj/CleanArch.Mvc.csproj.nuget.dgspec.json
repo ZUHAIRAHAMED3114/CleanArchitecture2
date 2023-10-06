@@ -180,6 +180,70 @@
         }
       }
     },
+    "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Bus\\CleanArch.Infra.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Bus\\CleanArch.Infra.Bus.csproj",
+        "projectName": "CleanArch.Infra.Bus",
+        "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Bus\\CleanArch.Infra.Bus.csproj",
+        "packagesPath": "C:\\Users\\shaik zuhair ahamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shaik zuhair ahamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Domain.Core\\CleanArch.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Domain.Core\\CleanArch.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -280,6 +344,9 @@
             "projectReferences": {
               "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Application\\CleanArch.Application.csproj": {
                 "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Application\\CleanArch.Application.csproj"
+              },
+              "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Bus\\CleanArch.Infra.Bus.csproj": {
+                "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Bus\\CleanArch.Infra.Bus.csproj"
               },
               "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
                 "projectPath": "C:\\Users\\shaik zuhair ahamed\\OneDrive\\Desktop\\Lecture\\Sms_Call_Chat_Video_Sms\\AspNetCore\\CleanArchitecture2\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
