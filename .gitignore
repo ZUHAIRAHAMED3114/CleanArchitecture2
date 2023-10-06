@@ -41,7 +41,9 @@ artifacts/
 .vscode/
 .idea/
 # User-specific files
+
 *.suo
+
 *.user
 
 *.vs/
@@ -65,6 +67,7 @@ artifacts/
 *.suo
 *.user
 
+/*.suo
 # Compiled output
 bin/
 obj/
