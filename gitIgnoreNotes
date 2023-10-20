@@ -1,0 +1,15 @@
+--If the files are not being ignored even after adding the patterns to your .gitignore file,
+
+REMOVING FROM THE STAGING..
+ NOTE BY DEFAULT IN VISUAL STUDIO ALL FILES ARE IN THE STAGED LOCATION (BZ HERE we are not adding by git . --->  by Default these are Adding... like git . add then finally we  we have to select the files from the staging to commit so
+ means we are selecting only those files which we need to commit from the staged enviroment)
+
+In this case, you need to untrack them and remove them from the repository. You can do this by running the following commands for each file or directory:
+git rm --cached -r .vs/Axionic/v16/.suo
+git rm --cached -r "**/obj/"
+
+Sometimes, Git might have cached information about the files. You can clear the cache by running:
+git rm -r --cached .
+git add .
+
+
